@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Login</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fontisto/3.0.4/css/fontisto.min.css"
+    integrity="sha512-BK7gVjtpI03rzn2PXIJKa2Eq2GehYBWEzEFt0L2rXtjEQ4EYuYulpnrDCclBv7dzfD0mJ0M7jYNE63FVMKVa7g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="login-body">
+
+  <main class="login-container">
+
+    <div class="login-logo">𝕏</div>
+
+    <h1>Sign in to X</h1>
+
+    <form id="login-form">
+
+      <button
+        type="button"
+        id="google-btn"
+        class="auth-button"
+      >
+        <span class="btn-icon">
+          <i class="fi fi-brands-google"></i>
+        </span>
+
+        <span>Continue with Google</span>
+      </button>
+
+
+      <button
+        type="button"
+        id="apple-btn"
+        class="auth-button"
+      >
+        <span class="btn-icon">
+          <i class="fi fi-brands-apple"></i>
+        </span>
+
+        <span>Continue with Apple</span>
+      </button>
+
+
+      <div class="divider">
+        <hr>
+        <span>or</span>
+        <hr>
+      </div>
+
+
+      <label for="username">
+        Email or username
+      </label>
+
+      <input
+        type="text"
+        id="username"
+        required
+        autocomplete="username"
+      >
+
+
+      <label for="password">
+        Password
+      </label>
+
+      <input
+        type="password"
+        id="password"
+        required
+        autocomplete="current-password"
+      >
+
+
+      <button
+        type="submit"
+        id="login-btn"
+      >
+        Continue
+      </button>
+
+
+      <button
+        type="button"
+        class="forgot-password"
+      >
+        Forgot password?
+      </button>
+
+    </form>
+
+
+    <p class="signup-text">
+      Don't have an account?
+      <a href="#">Sign up</a>
+    </p>
+
+  </main>
+
+  <script src="login.js"></script>
+
+</body>
+</html>
